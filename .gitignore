@@ -1,0 +1,80 @@
+# =========================
+# ROS 2 / colcon build dirs
+# =========================
+build/
+install/
+log/
+
+# If you occasionally run plain CMake in a package dir
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+
+# =========================
+# Ament / testing artifacts
+# =========================
+# Coverage & gcov
+*.gcno
+*.gcda
+*.gcov
+lcov.info
+coverage/
+htmlcov/
+
+# pytest / nose / tox / nox
+.pytest_cache/
+.tox/
+.nox/
+
+# =========================
+# Python (nodes, tools, scripts)
+# =========================
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.eggs/
+*.pyo
+.mypy_cache/
+.ruff_cache/
+.coverage*
+*.cache
+
+# Virtual envs (uv / venv / virtualenv / pipenv)
+.venv/
+venv/
+.env
+.python-version
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+*.code-workspace
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Vim / Emacs / etc.
+*~
+*.swp
+*.swo
+
+# =========================
+# Optional: compile DB
+# =========================
+# Many teams regenerate this; keep if your tooling expects it in git.
+# compile_commands.json
+
+# =========================
+# Optional: large runtime data (rosbag2, etc.)
+# Uncomment if you never want to commit bags or recordings.
+# *.db3        # rosbag2 (sqlite)
+# *.mcap       # rosbag2 (mcap)
+# *.bag.active
+# metadata.yaml
+
